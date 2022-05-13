@@ -8,7 +8,7 @@ Esta será um aplicativo em que seu principal objetivo é uma pequena aplicaçã
 - Remova uma tarefa
 - Marque e desmarque uma tarefa como concluída
   
-Este é um projeto desenvolvido durante o ** [Ignite - Trilh React] (https://rocketseat.com.br/) **, realizado por ** [@RocketSeat] (https://github.com/rocketSeat)**.
+Este é um projeto desenvolvido durante o ** [Ignite - Trilha React] (https://rocketseat.com.br/) **, realizado por ** [@RocketSeat] (https://github.com/rocketSeat)**.
 
 ## 🔖 Tecnologias
 
