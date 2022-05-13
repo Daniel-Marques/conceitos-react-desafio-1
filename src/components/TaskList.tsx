@@ -21,7 +21,8 @@ export function TaskList() {
   function handleCreateNewTask() {
     // Crie uma nova task com um id random, não permita criar caso o título seja vazio.
     if (newTaskTitle.trim() === "") {
-      alert("O título da task não pode ser vazio");
+      setError("Por favor, preencha o título da tarefa");
+      return;
     }
 
     const newTask: Task = {
@@ -31,6 +32,7 @@ export function TaskList() {
     };
 
     setTasks([...tasks, newTask]);
+    setError("");
   }
 
   /**
@@ -82,6 +84,7 @@ export function TaskList() {
       </header>
 
       <main>
+        {error && <p className="error">{error}</p>}
         <ul>
           {tasks.map((task) => (
             <li key={task.id}>
